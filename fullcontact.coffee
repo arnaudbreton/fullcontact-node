@@ -43,11 +43,11 @@ class FullContactPersonApi
 		personProcessed
 
 	queryFullContact: (email) ->
-		if not client?
+		if not @client?
 			console.error 'No client. Forgot to provide API key ?'
 			return
 
-		@client.person.findByEmail(email, (err, person) ->
+		@client.person.findByEmail(email, (err, person) =>
 			countCall++
 			if err or String(person.status).charAt(0) is '4'
 				console.error email, 'Error', err or "#{person.status} #{person.message}"
