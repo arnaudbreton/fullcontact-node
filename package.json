@@ -1,0 +1,22 @@
+{
+    "name": "fullcontact-node",
+    "version": "0.1.0",
+    "description": "Short NodeJS script to query Fullcontact Person API",
+    "main": "fullcontact.coffee",
+    "dependencies": {
+        "fullcontact-api": "0.0.3",
+        "json2csv": "~2.2.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/arnaudbreton/fullcontact-node.git"
+    },
+    "author": "Arnaud BRETON <arn.breton@gmail.com>",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "gitHead": "d03473fd1363ace6c95906cc0d7ac33fcd4225f1"
+}
